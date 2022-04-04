@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+}
+.link a:hover{
+    border-bottom: 2px solid #000;
+}
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid #eee;
+}
+.nav-items {
+    display: flex;
+    list-style-type: none;
+}
+.nav-items a{
+    color: #000;
+}
+.nav-link {
+    padding: 5px 10px;
+}
+li{
+    list-style-type: none;
+}
+form{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 100%;
+}
+
+form {
+    margin: 20px auto;
+    text-align: center;
+}
+input[type="submit"] {
+    padding: 10px 40px;
+    background: #1e21be;
+    color: #fff;
+}
+input[type="text"], input[type="number"]{
+    display: block;
+    background: none;
+    padding: 10px;
+    outline: none;
+}
+input {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid;
+}
+.start-btn {
+    border-radius: 5px;
+    padding: 10px 40px;
+    background: #8442f5;
+    color: #fff;
+}
+
+.add-student-container {
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+    width: 300px;
+}
+
+table, tr, td {
+    border-spacing: 15px 15px;
+}
+
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+}
+.intro {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 200px 20px;
+    font-weight: 300;
+}
+
+.intro p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}

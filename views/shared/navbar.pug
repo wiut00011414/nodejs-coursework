@@ -1,0 +1,11 @@
+mixin link(href, name)
+    a(href=href)&attributes(attributes)= name
+
+header.navbar
+    h1
+        a(href="/main") Students database
+
+    nav.nav
+        ul.nav-items
+            li.link
+                +link('/addstudent', 'Add student')

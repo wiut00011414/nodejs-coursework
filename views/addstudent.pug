@@ -1,0 +1,10 @@
+extends ../views/shared/layout.pug
+
+block content
+    main.form
+    form(action='/addstudent', method='POST').add-student-container
+          p
+            input(type='text', name='name', value='', placeholder="Name")
+            input(type='number', step="1" min="17" max="100" name='age', value='17')
+            input(type='text', name='course_name', value='', placeholder="course name")
+            input(type='submit', value='Add')

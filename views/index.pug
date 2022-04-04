@@ -1,0 +1,21 @@
+extends ../views/shared/layout.pug
+
+block content
+    main
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Course</td>
+            <td></td>
+            <td></td>
+        </tr>
+        each u in users
+            <tr>
+                <td>#{u.name}</td>
+                <td>#{u.age}</td>
+                <td>#{u.course_name}</td>
+                <td><a href="/edit/#{u.id}">Edit</a></td>
+                <td><a href="/delete/#{u.id}">Delete</a></td>
+            </tr>
+    </table>
